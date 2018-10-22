@@ -5,7 +5,6 @@ export const FETCH_CONTACT = "fetch_contact";
 export const CREATE_POST = "create_post";
 
 const ROOT_URL = "https://jsonplaceholder.typicode.com";
-const IMAGE_URL = "https://picsum.photos/200/?random";
 
 export function fetchContacts() {
   const request = axios.get(`${ROOT_URL}/users`);

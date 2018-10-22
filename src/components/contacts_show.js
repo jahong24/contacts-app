@@ -20,7 +20,7 @@ class ContactsShow extends Component {
       <div>
         <Link to="/">Back to Index</Link>
         <h1>{contact.name}</h1>
-        <img src="https://picsum.photos/200?random" />
+        <img src="https://picsum.photos/200?random" alt="" />
         <hr />
         <h5>
           {contact.address.street}, {contact.address.city},{" "}
